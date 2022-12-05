@@ -5,11 +5,6 @@ import json
 import hashlib
 import time
 import datetime
-    def __init__(self, username, password, step):
-        self.username = username
-        self.password = password
-        self.step = step
-
     # 登录
     def login(self):
         url = 'https://sports.lifesense.com/sessions_service/login?systemType=2&version=4.6.7'
